@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#navpart1{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+    padding: 15px 20px 10px 15px;
+}
+
+#navpart1 h1{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#navpart1 img{
+    width: 90px;
+}
+
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 33%;
+    gap: 8px;
+}
+
+#box button{
+    border-radius: 15px;
+    border: none;
+    height: 45px;
+    width: 80px;
+}
+
+#a{
+    background-color: rgb(180, 47, 69);
+    color: #fff;
+}
+
+#box i{
+    font-size: 30px;
+}
+
+#vdo{
+    height: 100%;
+    width: 100%;
+}
+
+#vdo video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+}
+
+#b{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.68);
+    position: absolute;
+    top: 12%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#b1{
+    margin-top: 5%;
+   height: 50px;
+   width: 100%;
+   position: relative;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   gap: 10px;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+
+#b1 h2{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.754);
+    padding: 10px 13px;
+    border-radius: 20px;
+    font-weight: 100;
+    font-size: 20px;
+     font-weight: 600;  
+     text-align: center;
+}
+
+#b1 h2:hover{
+    background-color: white;
+    color: black;
+    
+}
+#b1 :nth-child(1){
+    background-color: white;
+    color: black;
+    font-weight: 300;
+}
+
+#b h3{
+    position: absolute;
+    margin-top: 10%;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#b p{
+    position: absolute;
+    margin-top: 19%;
+    color: white;
+}
+
+#b input{
+    height: 55px;
+    width: 600px;
+    position: absolute;
+    margin-top: 25%;
+    border-radius: 20px;
+
+}
+
+#b2{
+    margin-top: 32%;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 0%;
+    padding-right: 0%;   
+}
+
+#b2 h2{
+    color: silver;
+    padding: 8px 13px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    font-weight: 100;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#b2 :nth-child(1){
+    border: none;
+}
+
+
+#bottom{
+    height: 100%;
+    width: 100%;    
+    position: relative;
+}
+
+.elem{
+    margin: 42px;
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: all ease-in 2s;
+    display: inline-block;
+}
+
+.elem img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.elem #box1{
+    height: 80px;
+    width: 100%;
+    background:linear-gradient(transparent,rgb(18, 9, 9));
+    position: absolute;
+    bottom: -50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    object-fit: cover;
+}
+
+#box1 h1{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white;
+    padding-left: 20px;
+}
+
+#box1 i{
+    color: white;
+    padding-right: 30px;
+}
+
+.elem:hover #box1{
+    bottom: 0%;
+}
+
+.elem video{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
